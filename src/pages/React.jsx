@@ -16,17 +16,17 @@ const ReactPage = () => {
     <div className="bg-gradient-to-b from-slate-800 to-slate-900 min-h-screen">
       {/* Header Section */}
       <div className="py-10">
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center animate-pulse">
           <img
             src={reactImg}
             alt="React Logo"
-            className="rounded-lg h-40 w-auto p-2 shadow-2xl transition-transform transform hover:scale-110 hover:rotate-12"
-          />
+            className="rounded-lg h-40 w-auto p-2  shadow-2xl transition-transform transform hover:scale-110 hover:rotate-12 custom-pulse"
+            />
         </div>
-        <h1 className="text-4xl text-white font-extrabold text-center mt-5">
+        <h1 className="text-4xl text-white font-extrabold text-center mt-5 animate-fade-in-down">
           The Library for Web and Native User Interfaces
         </h1>
-        <p className="text-white text-center mt-2 text-lg max-w-3xl mx-auto">
+        <p className="text-white text-center mt-2 text-lg max-w-3xl mx-auto animate-fade-in-down">
           Learn React, the library that powers some of the largest web applications in the world!
         </p>
       </div>
@@ -38,9 +38,9 @@ const ReactPage = () => {
         <img
           src={IntroImg}
           alt="React Introduction"
-          className="h-[500px] w-[90%] object-cover rounded-xl shadow-2xl mb-8 transition-all hover:scale-105"
+          className="h-[500px] w-[90%] object-cover rounded-xl shadow-2xl mb-8 transition-all hover:scale-105 animate-zoom-in"
         />
-        <p className="text-white text-lg text-justify max-w-3xl mx-auto">
+        <p className="text-white text-lg text-justify max-w-3xl mx-auto ">
           React is a JavaScript library developed by Meta (formerly Facebook) for building user interfaces (UIs). It is particularly well-suited for single-page applications, where users can interact with dynamic content without page reloads. React's component-based architecture allows developers to create reusable and scalable UI pieces that work seamlessly together.
         </p>
       </div>
