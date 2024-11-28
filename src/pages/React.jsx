@@ -120,7 +120,7 @@ const ReactPage = () => {
           <img
             src={advantagesImg}
             alt="Advantages"
-            className="w-full lg:w-1/2 h-48 object-cover rounded-lg shadow-2xl mb-3 lg:mb-0 transition-transform hover:scale-105"
+            className="w-full lg:w-1/2 h-48 object-contain rounded-lg shadow-2xl mb-3 lg:mb-0 transition-transform hover:scale-105"
           />
           <ul className="text-white list-disc list-inside p-5">
             <li>High performance due to Virtual DOM.</li>
@@ -178,7 +178,7 @@ const ReactPage = () => {
             <img
               src={UsestateImg}
               alt="useState Hook"
-              className="w-full h-48 object-cover rounded-lg mb-3"
+              className="w-full h-48 object-contain rounded-lg mb-3"
             />
             <h3 className="text-2xl font-semibold text-white mb-3">
               useState Hook
@@ -192,7 +192,7 @@ const ReactPage = () => {
             <img
               src={ueffecthooksImg}
               alt="useEffect Hook"
-              className="w-full h-48 object-cover rounded-lg mb-3"
+              className="w-full h-48 object-contain rounded-lg mb-3"
             />
             <h3 className="text-2xl font-semibold text-white mb-3">
               useEffect Hook
