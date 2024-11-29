@@ -18,14 +18,14 @@ const Home = () => {
       name: "React JS",
       image: reactImg,
       desc: "React can be used to build web, mobile, and desktop applications, making it a versatile framework for cross-platform development.",
-      route:"/React"
+      route: "/React",
     },
 
     {
       name: "Express JS",
       image: expressImg,
       desc: "Express.js is a minimalistic and flexible web application framework for Node.js, ideal for building APIs and server-side applications.",
-    route:"/ExpressJs"
+      route: "/ExpressJs",
     },
     {
       name: "Node JS",
@@ -70,12 +70,7 @@ const Home = () => {
   ];
 
   return (
-
-
-
-    
     <div className="bg-gradient-to-b from-gray-900 via-black to-teal-900 text-white min-h-screen p-10">
-      
       {/* Header */}
       <header className="text-center mb-12">
         <h1 className="text-5xl font-extrabold text-teal-300 mb-4">
@@ -90,14 +85,13 @@ const Home = () => {
       {/* Cards Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {technologies.map((tech, index) => (
-         <Link to={tech.route || "#"} key={index}>
-          <TechCard
-            key={index}
-            name={tech.name}
-            image={tech.image}
-            desc={tech.desc}
-          
-          />
+          <Link to={tech.route || "#"} key={index}>
+            <TechCard
+              key={index}
+              name={tech.name}
+              image={tech.image}
+              desc={tech.desc}
+            />
           </Link>
         ))}
       </div>

@@ -149,7 +149,8 @@ const ReactPage = () => {
           Understanding React Components
         </h2>
 
-        <div className="flex flex-col lg:flex-row items-center gap-6 bg-gray-800 rounded-lg shadow-lg p-6">
+        <div className="flex flex-col lg:flex-row items-center gap-6 bg-gray-800 rounded-lg shadow-lg p-6"data-aos="fade-right" 
+      data-aos-delay="400">
           <div className="flex-1">
             <img
               src={componentImg}
@@ -158,14 +159,15 @@ const ReactPage = () => {
             />
           </div>
           <div className="flex-1 text-gray-200 space-y-3">
-            <h3 className="text-2xl font-bold">Functional Components</h3>
+            <h3 className="text-teal-200 text-2xl font-bold">Functional Components</h3>
             <p>
               Functional components are JavaScript functions that return JSX. They are simple and ideal for most use cases. React hooks, like `useState` and `useEffect`, allow you to add state and lifecycle methods to functional components.
             </p>
           </div>
         </div>
 
-        <div className="flex flex-col lg:flex-row items-center gap-6 bg-gray-800 rounded-lg shadow-lg p-6">
+        <div className="flex flex-col lg:flex-row items-center gap-6 bg-gray-800 rounded-lg shadow-lg p-6" data-aos="fade-left" 
+      data-aos-delay="400">
           <div className="flex-1">
             <img
               src={hooksImg}
@@ -173,8 +175,8 @@ const ReactPage = () => {
               className="w-full h-48 object-cover rounded-lg shadow-2xl"
             />
           </div>
-          <div className="flex-1 text-gray-200 space-y-3">
-            <h3 className="text-2xl font-bold">React Hooks</h3>
+          <div className="flex-1 text-gray-200 space-y-3" >
+            <h3 className= "text-teal-200 text-2xl font-bold">React Hooks</h3>
             <p>
               React introduced hooks to allow state and lifecycle management in functional components. Hooks like `useState`, `useEffect`, and `useContext` allow functional components to behave like class components but with less complexity.
             </p>
@@ -188,7 +190,7 @@ const ReactPage = () => {
     className="text-teal-200 font-bold text-3xl text-center mb-5" 
     data-aos="fade-down"
   >
-    React Hooks
+    Types Of React Hooks
   </h2>
   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
     {/* useState Hook */}
@@ -283,7 +285,7 @@ const ReactPage = () => {
             alt="Disadvantages"
             className="w-full lg:w-1/2 h-48 object-contain rounded-lg shadow-2xl mb-3 lg:mb-0 transition-transform hover:scale-105"  data-aos="zoom-in"
           />
-          <ul className="text-white list-disc list-inside p-5" data-aos="fade-up" data-aos-delay="400">
+          <ul className="text-white list-disc list-inside p-5" data-aos="fade-down" data-aos-delay="400">
             <li>Steep learning curve for beginners.</li>
             <li>Only handles the view layer; requires additional tools for full-stack solutions.</li>
             <li>Frequent updates can sometimes introduce breaking changes.</li>
@@ -293,7 +295,7 @@ const ReactPage = () => {
 
 
       {/* React State Management */}
-      <div className="p-5 rounded-lg shadow-lg mt-10" data-aos="zoom-in-up">
+      <div className="p-5 rounded-lg shadow-lg mt-10" data-aos="zoom-in-down">
         <h2 className="text-teal-200 font-bold text-3xl text-center mb-5">
           State Management in React
         </h2>
