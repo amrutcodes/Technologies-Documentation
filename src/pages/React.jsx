@@ -13,7 +13,7 @@ import UsestateImg from "./../assets/ustatehook.webp";
 
 const ReactPage = () => {
   return (
-    <div className="bg-gradient-to-b from-slate-800 to-slate-900 min-h-screen">
+    <div className="bg-gradient-to-b from-gray-900 via-black to-gray-800 min-h-screen">
       {/* Header Section */}
       <div className="py-10">
         <div className="flex justify-center items-center animate-pulse">
