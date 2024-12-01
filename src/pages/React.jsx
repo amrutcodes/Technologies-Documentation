@@ -90,7 +90,7 @@ const ReactPage = () => {
             <h3 className="text-2xl font-semibold text-white mb-3" data-aos="zoom-in">
               Component-Based Architecture
             </h3>
-            <p className="text-white" data-aos="fade-up" data-aos-delay="400">
+            <p className="text-white" data-aos="fade-up" data-aos-delay="600">
               React breaks the UI into independent, reusable components, making code easier to manage and scale.
             </p>
           </div>
@@ -103,7 +103,7 @@ const ReactPage = () => {
             <h3 className="text-2xl font-semibold text-white mb-3" data-aos="zoom-in">
               JSX (JavaScript XML)
             </h3>
-            <p className="text-white" data-aos="fade-up" data-aos-delay="400">
+            <p className="text-white" data-aos="fade-up" data-aos-delay="600">
               JSX lets you write HTML-like syntax directly in JavaScript, making code more readable and intuitive.
             </p>
           </div>
@@ -116,7 +116,7 @@ const ReactPage = () => {
             <h3 className="text-2xl font-semibold text-white mb-3" data-aos="zoom-in">
               Virtual DOM
             </h3>
-            <p className="text-white" data-aos="fade-up" data-aos-delay="400">
+            <p className="text-white" data-aos="fade-up" data-aos-delay="600">
               React maintains a lightweight Virtual DOM, ensuring efficient updates and improved performance for complex UIs.
             </p>
           </div>
