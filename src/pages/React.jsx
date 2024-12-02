@@ -305,15 +305,15 @@ const ReactPage = () => {
       </div>
 
       {/* React Best Practices */}
-      <div className="p-5 rounded-lg shadow-lg mt-10" data-aos="fade-up">
+      <div className="p-5 rounded-lg shadow-lg mt-10" data-aos="fade-down" data-aos-delay="400">
         <h2 className="text-teal-200 font-bold text-3xl text-center mb-5">
           Best Practices in React Development
         </h2>
         <div className="space-y-4">
-          <ul className="text-gray-300 list-disc list-inside p-5 space-y-3">
+          <ul className="text-gray-300 list-disc list-inside p-5 space-y-3" data-aos="zoom-in-down"  data-aos-delay="400">
             <li>Always use functional components and hooks over class components for simplicity.</li>
             <li>Break your app into reusable components to improve maintainability.</li>
-            <li>Keep state management localized to where it’s needed, and avoid unnecessary global state unless required.</li>
+            <li>Keep state management localized to where it's needed, and avoid unnecessary global state unless required.</li>
             <li>Optimize performance with `React.memo` and `useMemo` when rendering large lists or complex UI elements.</li>
             <li>Use PropTypes to enforce type checking and avoid runtime errors in development.</li>
           </ul>
@@ -322,10 +322,10 @@ const ReactPage = () => {
 
       {/* Conclusion */}
       <div className="p-5  rounded-lg shadow-lg mt-10">
-        <h2 className="text-green-300 font-bold text-3xl text-center mb-5" data-aos="fade-up">
+        <h2 className="text-green-300 font-bold text-3xl text-center mb-5" data-aos="fade-down" data-aos-delay="400">
           Conclusion
         </h2>
-        <p className="text-gray-200 text-lg text-center max-w-3xl mx-auto" data-aos="fade-up">
+        <p className="text-gray-200 text-lg text-center max-w-3xl mx-auto" data-aos="zoom-in-down"  data-aos-delay="400">
           React.js is an incredibly powerful and flexible library for building modern, interactive UIs. With its component-based architecture and hooks, React allows developers to create maintainable, high-performance applications. By following best practices and utilizing tools like AOS, you can enhance your development experience and build engaging user interfaces.
         </p>
       </div>
